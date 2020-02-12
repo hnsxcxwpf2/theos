@@ -1,3 +1,11 @@
+
+
+#skfly add begin
+SKFLY_CURRENT_USER_ROOT_PATH=/Volumes/DISK_02_USER_DATA/Users/skfly
+SKFLY_COMMON_SUPPORT_PATH=$(SKFLY_CURRENT_USER_ROOT_PATH)/Desktop/__SKFLY/workspace/theos_master_20200110/common/SkflyCommonSupport/SkflyCommonSupport/public
+#skfly add end
+
+
 all::
 
 # common.mk should only be included once. Throw an error if already included in this makefile.
